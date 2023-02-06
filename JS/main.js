@@ -20,7 +20,7 @@ const my_team = [
     {
         nome: "Walter Gordon",
         ruolo: "Office Manager",
-        foto: "walter - gordon - office - manager.jpg";
+        foto: "walter - gordon - office - manager.jpg"
     },
 
     {
@@ -33,7 +33,7 @@ const my_team = [
         nome: "Scott Estrada",
         ruolo: "Developer",
         foto: "scott - estrada - developer.jpg"
-    }
+    },
 
     {
         nome: "Barbara Ramos",
@@ -42,8 +42,14 @@ const my_team = [
     }
 
 ];
+
+
 //     MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+
+for (const user in my_team) {
+    console.log(my_team[user]);
+}
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
 // BONUS 1:
